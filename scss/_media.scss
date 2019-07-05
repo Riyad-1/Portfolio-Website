@@ -30,14 +30,24 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
     li {
       padding: 1rem;
     }
   }
 
+  .fixed-nav {
+    display: none;
+  }
+
   #header {
     &-home {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
       height: 10rem;
       border-bottom: 3px solid $main-color;
       background-position: 20% 30%;
@@ -61,6 +71,7 @@
 
   // About
   #about {
+    padding-top: 10rem;
     &-a {
       .about-info {
         grid-template-areas:

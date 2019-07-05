@@ -1,3 +1,13 @@
+// document.addEventListener("DOMContentLoaded", init);
+
+// function init() {
+//   let query = window.matchMedia("(min-width: 501px)");
+
+//   if (query.matches) {
+//   } else {
+//   }
+// }
+
 // Sticky menu background
 $(document).ready(function() {
   // Transition effect for navbar

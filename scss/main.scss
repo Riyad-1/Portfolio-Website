@@ -96,7 +96,14 @@ img {
   opacity: 0.98;
   justify-content: space-between;
   padding: 1rem;
-  transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in-out;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
+
+  li {
+    &:last-child {
+      margin-right: 2rem;
+    }
+  }
 }
 
 // Header
