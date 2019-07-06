@@ -227,7 +227,11 @@ img {
   #main-nav ul {
     display: flex; }
   #main-nav li {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1.5rem;
+    border-bottom: 2px transparent solid; }
+    #main-nav li.active {
+      margin-bottom: 1rem;
+      border-color: #ffbc00; }
   #main-nav a {
     text-decoration: none;
     color: #fff;
@@ -386,7 +390,7 @@ img {
     left: 0;
     right: 0;
     z-index: 10;
-    height: 10rem;
+    height: 11.1rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
